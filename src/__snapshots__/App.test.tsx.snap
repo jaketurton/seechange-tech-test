@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="App h-max min-h-screen bg-gradient-to-b from-blue-50 via-blue-400 to-blue-200"
+  >
+    <div
+      class="flex flex-col grow md:flex-row max-w-[1180px] justify-between m-auto px-4 py-4 md:py-14 header-bg"
+    >
+      <div>
+        <header
+          class="inline-block"
+        >
+          <img
+            alt="SeeChange Logo"
+            class="inline-block mr-10"
+            height="34"
+            src="seechange-logo.png"
+            width="205"
+          />
+          <nav
+            class="inline-block"
+          >
+            <ul
+              class="flex flex-row mt-1"
+            >
+              <li
+                class="mr-5"
+              >
+                <a
+                  aria-current="page"
+                  class="underline"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class=""
+                  href="/products"
+                >
+                  Products
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div
+          class="App h-max"
+        >
+          <div
+            class="mt-10"
+          >
+            <h1
+              class="text-lg"
+            >
+              This is the homepage
+            </h1>
+            <p
+              class="text-base"
+            >
+              Revolutionising Vision AI Technology from Edge to Cloud Fully Containerised and Orchestrate Anywhere SeeChange is more than just a platform – it’s a revolution in vision AI technology. Designed for versatility and performance, our platform offers a fully containerised environment deployable across various architectures, from edge to cloud. The platform design allows for easy orchestration and its high-speed C++ engine efficiently transforms your concepts into reality. It enables you to integrate your custom models using versatile C++ or Python interfaces, supported by a dynamic and adaptable data architecture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

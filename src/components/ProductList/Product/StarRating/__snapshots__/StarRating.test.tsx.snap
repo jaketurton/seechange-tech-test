@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-2"
+  >
+    <span
+      class="text-yellow-400 font-black text-base mr-1"
+    >
+      ★
+    </span>
+    <span
+      class="text-yellow-400 font-black text-base mr-1"
+    >
+      ★
+    </span>
+    <span
+      class="text-yellow-400 font-black text-base mr-1"
+    >
+      ★
+    </span>
+    <span
+      class="text-yellow-400 font-black text-base mr-1"
+    />
+    <span
+      class="text-yellow-400 font-black text-base mr-1"
+    />
+  </div>
+</DocumentFragment>
+`;
