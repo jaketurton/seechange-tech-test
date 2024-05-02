@@ -9,7 +9,7 @@ interface ProductProps {
 export default function Product({ product, testId }: ProductProps) {
   return (
     <article
-      className="max-w-[800px] w-full bg-white mb-6 shadow-md"
+      className="max-w-[800px] w-full bg-white mb-6 shadow-md rounded-s"
       data-testid={testId}
     >
       <div className="relative flex flex-row flex-wrap md:flex-nowrap">

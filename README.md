@@ -14,7 +14,7 @@
 
 *Please note: I decided to host the JSON payload locally, this was so I was able to learn how to setup a basic JSON server in Go. The same payload URL for fakestoreapi is commented out next to `fetch` in `Products.tsx`, line 15.* 
 
-![](https://i.imgur.com/uV6pL1Q.png)
+![](https://i.imgur.com/mJS1A2U.png)
 
 # Original Brief:
 

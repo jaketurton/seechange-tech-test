@@ -27,15 +27,15 @@ export default function Filter({
 
   return (
     <header>
-      <div className="flex flex-col w-full md:w-[300px] md:mr-4 shadow-md rounded-sm">
+      <div className="flex flex-col w-full md:w-[300px] md:mr-4 shadow-md">
         {categories.length > 0 && (
           <div className="relative z-50">
             <button
-              className={`text-base text-left px-3 py-2 w-full relative ${
+              className={`text-base text-left px-3 py-2 w-full relative rounded-t ${
                 selectedFilter === "category"
                   ? "bg-custom-blue text-white"
                   : "bg-white text-custom-blue"
-              }`}
+              } ${isCategoryOpen === false ? "rounded-b" : ""}`}
               onClick={handleCategoryClick}
               data-testid="sort-category"
             >
@@ -49,14 +49,14 @@ export default function Filter({
               />
             </button>
             {isCategoryOpen && (
-              <div className="absolute w-full bg-white shadow-md">
-                {categories.map((category) => (
+              <div className="absolute w-full bg-white shadow-md rounded-b">
+                {categories.map((category, index) => (
                   <button
-                    key={category}
+                    key={index}
                     className="block w-full text-base text-left px-3 py-2 text-custom-blue hover:bg-gray-100"
                     onClick={() => handleCategorySelect(category)}
                   >
-                    {category}
+                    {category} {index === categories.length - 1}
                   </button>
                 ))}
               </div>
