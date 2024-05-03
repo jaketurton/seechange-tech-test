@@ -23,15 +23,7 @@ export default function Products() {
 
   useEffect(() => {
     loadProductData();
-
-    const uniqueCategories = Array.from(
-      new Set(productData.map((item) => item.category))
-    );
-
-    setCategories(uniqueCategories);
-  }, []);
-
-  useEffect(() => {
+    
     if (productData.length > 0) {
       const uniqueCategories = Array.from(
         new Set(productData.map((item) => item.category))
